@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 header{
   height: 100px;
   background-color: skyblue;
@@ -9,4 +14,21 @@ header{
 header > img{
   height:90px;
   vertical-align: bottom;
+}
+
+h1{
+  font-size: xx-large;
+}
+
+.color-grey{
+  color: grey;
+}
+
+.color-booleaner{
+  color: skyblue;
+  text-decoration: none;
+}
+
+.bgcolor-yellow{
+  background-color: yellow;
 }
