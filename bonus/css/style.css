@@ -4,7 +4,7 @@
 }
 
 header{
-  height: 100px;
+  /* height: 100px; */
   background-color: #c86feb;
   background-image: url(../img/pattern.png);
   background-repeat: repeat-x;
@@ -12,9 +12,8 @@ header{
 }
 
 header > img{
-  height:90px;
-  vertical-align: bottom;
-}
+  height:50px;
+  margin-top: 90px;
 
 h1{
   font-size: xx-large;
