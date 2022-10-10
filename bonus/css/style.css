@@ -5,7 +5,7 @@
 
 header{
   height: 100px;
-  background-color: skyblue;
+  background-color: #c86feb;
   background-image: url(../img/pattern.png);
   background-repeat: repeat-x;
   background-size: contain;
@@ -13,7 +13,7 @@ header{
 
 header > img{
   height:90px;
-  
+  vertical-align: bottom;
 }
 
 h1{
@@ -27,7 +27,7 @@ h1{
 }
 
 .color-booleaner{
-  color: skyblue;
+  color: #c86feb;
   text-decoration: none;
 }
 
@@ -36,16 +36,20 @@ h6{
 }
 
 .bgcolor-yellow{
-  background-color: yellow;
+  background-color: rgb(255, 0, 221);
+}
+
+li{
+  list-style-type: square
 }
 
 thead{
   color: white;
-  background-color: rgb(0, 168, 235);
+  background-color: rgb(168, 0, 235);
 }
 
 .bg-color-blue{
-  background-color: skyblue;
+  background-color: #c86feb;
 }
 
 .image{
