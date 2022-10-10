@@ -32,3 +32,12 @@ h1{
 .bgcolor-yellow{
   background-color: yellow;
 }
+
+thead{
+  color: white;
+  background-color: rgb(0, 168, 235);
+}
+
+.bg-color-blue{
+  background-color: skyblue;
+}
