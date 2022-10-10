@@ -1,11 +1,16 @@
 *{
-  /* margin: 0; */
+  margin: 0;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.padding{
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 header{
   /* height: 100px; */
-  background-color: #c86feb;
+  background-color: magenta;
   background-image: url(../img/pattern.png);
   background-repeat: repeat-x;
   background-size: contain;
@@ -14,6 +19,7 @@ header{
 header > img{
   height:50px;
   margin-top: 90px;
+}
 
 h1{
   font-size: xx-large;
@@ -26,7 +32,7 @@ h1{
 }
 
 .color-booleaner{
-  color: #c86feb;
+  color: magenta;
   text-decoration: none;
 }
 
@@ -35,20 +41,27 @@ h6{
 }
 
 .bgcolor-yellow{
-  background-color: rgb(255, 0, 221);
+  background-color: rgb(255, 125, 249);
 }
 
-li{
-  list-style-type: square
+table{
+  border-collapse: collapse;
+  
 }
+
 
 thead{
   color: white;
-  background-color: rgb(168, 0, 235);
+  background-color: rgb(235, 0, 223);
 }
 
+th{
+  width: 33%;
+}
+
+
 .bg-color-blue{
-  background-color: #c86feb;
+  background-color: magenta;
 }
 
 .image{
